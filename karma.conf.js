@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/angular-13-jwt-auth'),
+      dir: require('path').join(__dirname, './coverage/dsi-front'),
       subdir: '.',
       reporters: [
         { type: 'html' },
